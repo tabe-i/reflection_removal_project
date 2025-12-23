@@ -6,22 +6,22 @@
   
   <!-- Primary Meta Tags -->
   <!-- TODO: Replace with your paper title and author names -->
-  <meta name="title" content="PAPER_TITLE - AUTHOR_NAMES">
+  <meta name="title" content="GFRRN: Explore the Gaps in Single Image Reflection Removal">
   <!-- TODO: Write a compelling 150-160 character description of your research -->
   <meta name="description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
   <!-- TODO: Add 5-10 relevant keywords for your research area -->
-  <meta name="keywords" content="KEYWORD1, KEYWORD2, KEYWORD3, machine learning, computer vision, AI">
+  <meta name="keywords" content="Artificial Intelligence, Computer Vision, Computational Imaging, Reflection Removal, Semantic Gap, Data Gap">
   <!-- TODO: List all authors -->
-  <meta name="author" content="FIRST_AUTHOR_NAME, SECOND_AUTHOR_NAME">
+  <meta name="author" content="Yu Chen, Zewei He">
   <meta name="robots" content="index, follow">
   <meta name="language" content="English">
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="article">
   <!-- TODO: Replace with your institution or lab name -->
-  <meta property="og:site_name" content="INSTITUTION_OR_LAB_NAME">
+  <meta property="og:site_name" content="Zhejiang University | Huanjiang Lab">
   <!-- TODO: Same as paper title above -->
-  <meta property="og:title" content="PAPER_TITLE">
+  <meta property="og:title" content="GFRRN: Explore the Gaps in Single Image Reflection Removal">
   <!-- TODO: Same as description above -->
   <meta property="og:description" content="BRIEF_DESCRIPTION_OF_YOUR_RESEARCH_CONTRIBUTION_AND_FINDINGS">
   <!-- TODO: Replace with your actual website URL -->
@@ -74,11 +74,11 @@
 
 
   <!-- TODO: Replace with your paper title and authors -->
-  <title>PAPER_TITLE - AUTHOR_NAMES | Academic Research</title>
+  <title>GFRRN: Explore the Gaps in Single Image Reflection Removal - Yu Chen |  Zhejiang University</title>
   
   <!-- Favicon and App Icons -->
-  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
-  <link rel="apple-touch-icon" href="static/images/favicon.ico">
+  <link rel="icon" type="image/x-icon" href="static/images/gf.ico">
+  <link rel="apple-touch-icon" href="static/images/gf.ico">
   
   <!-- Critical CSS - Load synchronously -->
   <link rel="stylesheet" href="static/css/bulma.min.css">
@@ -241,23 +241,27 @@
         <div class="columns is-centered">
           <div class="column has-text-centered">
             <!-- TODO: Replace with your paper title -->
-            <h1 class="title is-1 publication-title">Academic Project Page</h1>
+            <h1 class="title is-1 publication-title">GFRRN: Explore the Gaps in Single Image Reflection Removal</h1>
             <div class="is-size-5 publication-authors">
               <!-- TODO: Replace with your paper authors and their personal links -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">First Author</a><sup>*</sup>,</span>
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Yu Chen</a>,</span>
+               <span class="author-block">
+                      <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Zewei He</a><sup>†</sup>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Second Author</a><sup>*</sup>,</span>
+                  <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Xingyu Liu</a>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Third Author</a>
+                    <a href="Fourth AUTHOR PERSONAL LINK" target="_blank">Zixuan Chen</a>,</span>
+                      <span class="author-block">
+                        <a href="Fifth AUTHOR PERSONAL LINK" target="_blank">Zheming Lu</a>
                   </span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
                     <!-- TODO: Replace with your institution and conference/journal info -->
-                    <span class="author-block">Institution Name<br>Conference name and year</span>
+                    <span class="author-block">Zhejiang University, Huanjiang Lab<br>Arxiv 2025</span>
                     <!-- TODO: Remove this line if no equal contribution -->
-                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                    <span class="eql-cntrb"><small><br><sup>†</sup>Indicates Corresponding Author</small></span>
                   </div>
 
                   <div class="column has-text-centered">
@@ -314,23 +318,22 @@
 </section>
 
 
-<!-- Teaser video-->
+<!-- Teaser image -->
 <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <!-- TODO: Replace with your teaser video -->
-      <video poster="" id="tree" autoplay controls muted loop height="100%" preload="metadata">
-        <!-- TODO: Add your video file path here -->
-        <source src="static/videos/banner_video.mp4" type="video/mp4">
-      </video>
-      <!-- TODO: Replace with your video description -->
+      <!-- TODO: Replace with your teaser image -->
+      <img src="static/images/teaser.png" 
+      alt="Teaser image showing our method's results" 
+     class="teaser-image">
+      <!-- TODO: Replace with your image description -->
       <h2 class="subtitle has-text-centered">
-        Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus. 
+        (a) Single-stream method; (b) Dual-stream method; (c) Dual-stream method with feature interaction mechanism; (d) Ours; (e) Experimental results with different settings: left side shows PSNR comparison, right side shows SSIM comparison.
       </h2>
     </div>
   </div>
 </section>
-<!-- End teaser video -->
+<!-- End teaser image -->
 
 <!-- Paper abstract -->
 <section class="section hero is-light">
@@ -341,7 +344,7 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            Prior dual-stream methods with the feature interaction mechanism have achieved remarkable performance in single image reflection removal (SIRR). However, they often struggle with (1) semantic understanding gap between the features of pre-trained models and those of image restoration models, and (2) reflection label inconsistencies between synthetic and real-world training data. In this paper, we first adopt the parameter efficient fine-tuning strategy by integrating several learnable Mona layers into the pre-trained model to align the training directions. Then, a label generator is designed to unify the labels for both synthetic and real-world data with an optimized reflection label. In addition, a Gaussian-based Adaptive Frequency Learning Block (G-AFLB) is proposed to adaptively learn and fuse the frequency priors, and a dynamic agent attention (DAA) is employed as an alternative to window-based attention by dynamically modeling the significance levels across windows (inter-window) and within individual windows (intra-window). The aforementioned improvements collectively constitute our proposed Gap-Free Reflection Removal Network (GFRRN). Extensive experiments demonstrate the effectiveness of our GFRRN, achieving superior performance against state-of-the-art SIRR methods.
           </p>
         </div>
       </div>
@@ -351,145 +354,431 @@
 <!-- End paper abstract -->
 
 
-<!-- Image carousel -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3 has-text-centered">Visual Comparison</h2>
+        <div class="content has-text-centered">
+          <p>Drag the slider to compare the input image with our result.</p>
+        </div>
+
+        <!-- 第一个对比滑块 -->
+        <div class="comparison-wrapper">
+          <div class="comparison-container" id="compare-container-1">
+            <img src="static/images/88_out.png" alt="Processed Result 1">
+            <div class="img-overlay" id="img-overlay-1">
+              <img src="static/images/88_in.png" alt="Input Image 1">
+            </div>
+            <div class="slider-handle" id="slider-handle-1">
+              <div class="handle-button">
+                <i class="fas fa-arrows-alt-h"></i>
+              </div>
+            </div>
+            <span class="label-text label-left">Input</span>
+            <span class="label-text label-right">Output</span>
+          </div>
+        </div>
+
+        <!-- 第四个对比滑块 -->
+        <div class="comparison-wrapper">
+          <div class="comparison-container" id="compare-container-4">
+            <img src="static/images/10_out.png" alt="Processed Result 4">
+            <div class="img-overlay" id="img-overlay-4">
+              <img src="static/images/10_in.png" alt="Input Image 4">
+            </div>
+            <div class="slider-handle" id="slider-handle-4">
+              <div class="handle-button">
+                <i class="fas fa-arrows-alt-h"></i>
+              </div>
+            </div>
+            <span class="label-text label-left">Input</span>
+            <span class="label-text label-right">Output</span>
+          </div>
+        </div>
+
+        <!-- 第二个对比滑块 -->
+        <div class="comparison-wrapper">
+          <div class="comparison-container" id="compare-container-2">
+            <img src="static/images/17_out.png" alt="Processed Result 2">
+            <div class="img-overlay" id="img-overlay-2">
+              <img src="static/images/17_in.png" alt="Input Image 2">
+            </div>
+            <div class="slider-handle" id="slider-handle-2">
+              <div class="handle-button">
+                <i class="fas fa-arrows-alt-h"></i>
+              </div>
+            </div>
+            <span class="label-text label-left">Input</span>
+            <span class="label-text label-right">Output</span>
+          </div>
+        </div>
+
+        <!-- 第三个对比滑块 -->
+        <div class="comparison-wrapper">
+         
+          <div class="comparison-container" id="compare-container-3">
+            <img src="static/images/140_out.png" alt="Processed Result 3">
+            <div class="img-overlay" id="img-overlay-3">
+              <img src="static/images/140_in.png" alt="Input Image 3">
+            </div>
+            <div class="slider-handle" id="slider-handle-3">
+              <div class="handle-button">
+                <i class="fas fa-arrows-alt-h"></i>
+              </div>
+            </div>
+            <span class="label-text label-left">Input</span>
+            <span class="label-text label-right">Output</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .comparison-wrapper {
+      margin-bottom: 3rem;
+    }
+    
+    .comparison-wrapper:last-child {
+      margin-bottom: 1rem;
+    }
+    
+    .comparison-container {
+      position: relative;
+      width: 100%;
+      max-width: 2400px;
+      margin: 0 auto;
+      overflow: hidden;
+      border-radius: 8px;
+      cursor: ew-resize;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      user-select: none;
+    }
+
+    .comparison-container img {
+      display: block;
+      width: 100%;
+      height: auto;
+      pointer-events: none;
+    }
+
+    .img-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 100%;
+      overflow: hidden;
+      border-right: none;
+      z-index: 10;
+    }
+
+    .img-overlay img {
+      width: 100%;
+      max-width: none;
+      height: 100%;
+      object-fit: cover;
+      object-position: left;
+    }
+
+    .slider-handle {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 50%;
+      width: 2px;
+      background: white;
+      margin-left: -1px;
+      z-index: 20;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: visible;
+    }
+
+    .handle-button {
+      width: 40px;
+      height: 40px;
+      flex-shrink: 0;
+      background-color: #2563eb;
+      border: 3px solid white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+    }
+
+    .label-text {
+      position: absolute;
+      bottom: 10px;
+      background: rgba(0, 0, 0, 0.6);
+      color: white;
+      padding: 4px 8px;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      pointer-events: none;
+      z-index: 30;
+    }
+    .label-left { left: 10px; }
+    .label-right { right: 10px; }
+  </style>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // 初始化所有对比滑块
+      initComparisonSlider(1);
+      initComparisonSlider(2);
+      initComparisonSlider(3);
+      initComparisonSlider(4);
+      
+      // 监听窗口大小变化，同步所有滑块
+      window.addEventListener('resize', function() {
+        syncAllImageWidths();
+      });
+      
+      // 初始同步图片宽度
+      syncAllImageWidths();
+    });
+    
+    // 初始化单个对比滑块
+    function initComparisonSlider(sliderId) {
+      const container = document.getElementById(`compare-container-${sliderId}`);
+      const overlay = document.getElementById(`img-overlay-${sliderId}`);
+      const handle = document.getElementById(`slider-handle-${sliderId}`);
+      const overlayImg = overlay.querySelector('img');
+      let isDragging = false;
+      
+      // 同步图片宽度
+      function syncImageWidth() {
+        const width = container.offsetWidth;
+        overlayImg.style.width = `${width}px`;
+      }
+      
+      // 更新滑块位置
+      function updateSlider(x) {
+        const rect = container.getBoundingClientRect();
+        let position = x - rect.left;
+        
+        // 边界检查
+        if (position < 0) position = 0;
+        if (position > rect.width) position = rect.width;
+        
+        // 计算百分比
+        const percentage = (position / rect.width) * 100;
+        
+        // 更新样式
+        overlay.style.width = `${percentage}%`;
+        handle.style.left = `${percentage}%`;
+      }
+      
+      // 鼠标事件
+      container.addEventListener('mousedown', () => isDragging = true);
+      window.addEventListener('mouseup', () => isDragging = false);
+      
+      container.addEventListener('mousemove', (e) => {
+        if (!isDragging) return;
+        updateSlider(e.clientX);
+      });
+      
+      // 点击跳转
+      container.addEventListener('click', (e) => {
+        updateSlider(e.clientX);
+      });
+      
+      // 触摸事件（移动端支持）
+      container.addEventListener('touchstart', () => isDragging = true);
+      window.addEventListener('touchend', () => isDragging = false);
+      
+      container.addEventListener('touchmove', (e) => {
+        if (!isDragging) return;
+        updateSlider(e.touches[0].clientX);
+      });
+      
+      // 返回同步函数，供全局调用
+      return syncImageWidth;
+    }
+    
+    // 同步所有滑块的图片宽度
+    function syncAllImageWidths() {
+      for (let i = 1; i <= 4; i++) {
+        const container = document.getElementById(`compare-container-${i}`);
+        const overlay = document.getElementById(`img-overlay-${i}`);
+        if (container && overlay) {
+          const overlayImg = overlay.querySelector('img');
+          if (overlayImg) {
+            const width = container.offsetWidth;
+            overlayImg.style.width = `${width}px`;
+          }
+        }
+      }
+    }
+  </script>
+</section>
+
 <section class="hero is-small">
   <div class="hero-body">
     <div class="container">
-      <div id="results-carousel" class="carousel results-carousel">
-       <div class="item">
-        <!-- TODO: Replace with your research result images -->
-        <img src="static/images/carousel1.jpg" alt="First research result visualization" loading="lazy"/>
-        <!-- TODO: Replace with description of this result -->
-        <h2 class="subtitle has-text-centered">
-          First image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel2.jpg" alt="Second research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-          Second image description.
-        </h2>
-      </div>
-      <div class="item">
-        <!-- Your image here -->
-        <img src="static/images/carousel3.jpg" alt="Third research result visualization" loading="lazy"/>
-        <h2 class="subtitle has-text-centered">
-         Third image description.
-       </h2>
-     </div>
-     <div class="item">
-      <!-- Your image here -->
-      <img src="static/images/carousel4.jpg" alt="Fourth research result visualization" loading="lazy"/>
-      <h2 class="subtitle has-text-centered">
-        Fourth image description.
-      </h2>
-    </div>
-  </div>
-</div>
-</div>
-</section>
-<!-- End image carousel -->
-
-
-
-
-<!-- Youtube video -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <!-- Paper video. -->
-      <h2 class="title is-3">Video Presentation</h2>
+      <!-- 添加大标题和说明 -->
       <div class="columns is-centered has-text-centered">
         <div class="column is-four-fifths">
+          <h2 class="title is-3">Visual Effects on Open Datasets</h2>
+          <div class="content">
+            <p class="has-text-centered">
+              The inputs are above, and the outputs are below. These images are from the datasets 'Nature', 'Real' and 'SIR2'.
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <!-- 原有的轮播图代码 -->
+      <div id="results-carousel" class="carousel results-carousel">
+        <!-- 第一页 -->
+        <div class="item">
+          <!-- 上面三张图片 -->
+          <div class="columns is-multiline mb-5">
+            <div class="column is-one-third">
+              <img src="static/images/1-2_31_in.png" alt="Input 1" loading="lazy"/>
+            </div>
+            <div class="column is-one-third">
+              <img src="static/images/1_143_in.png" alt="Input 2" loading="lazy"/>
+            </div>
+            <div class="column is-one-third">
+              <img src="static/images/3_1_in.png" alt="Input 3" loading="lazy"/>
+            </div>
+          </div>
           
-          <div class="publication-video">
-            <!-- TODO: Replace with your YouTube video ID -->
-            <iframe src="https://www.youtube.com/embed/JkaxUblCGz0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <!-- 下面三张图片 -->
+          <div class="columns is-multiline">
+            <div class="column is-one-third">
+              <img src="static/images/1-2_31_out.png" alt="Output 1" loading="lazy"/>
+            </div>
+            <div class="column is-one-third">
+              <img src="static/images/1_143_out.png" alt="Output 2" loading="lazy"/>
+            </div>
+            <div class="column is-one-third">
+              <img src="static/images/3_1_out.png" alt="Output 3" loading="lazy"/>
+            </div>
+          </div>
+        </div>
+        
+        <!-- 第二页 -->
+        <div class="item">
+          <!-- 上面三张图片 -->
+          <div class="columns is-multiline mb-5">
+            <div class="column is-one-third">
+              <img src="static/images/47_in.png" alt="Input 4" loading="lazy"/>
+            </div>
+            <div class="column is-one-third">
+              <img src="static/images/86_in.png" alt="Input 5" loading="lazy"/>
+            </div>
+            <div class="column is-one-third">
+              <img src="static/images/107_in.png" alt="Input 6" loading="lazy"/>
+            </div>
+          </div>
+          
+          <!-- 下面三张图片 -->
+          <div class="columns is-multiline">
+            <div class="column is-one-third">
+              <img src="static/images/47_out.png" alt="Output 4" loading="lazy"/>
+            </div>
+            <div class="column is-one-third">
+              <img src="static/images/86_out.png" alt="Output 5" loading="lazy"/>
+            </div>
+            <div class="column is-one-third">
+              <img src="static/images/107_out.png" alt="Output 6" loading="lazy"/>
+            </div>
+          </div>
+        </div>
+        
+        <!-- 第三页 -->
+        <div class="item">
+          <!-- 上面三张图片 -->
+          <div class="columns is-multiline mb-5">
+            <div class="column is-one-third">
+              <img src="static/images/1_in.png" alt="Input 7" loading="lazy"/>
+            </div>
+            <div class="column is-one-third">
+              <img src="static/images/165_in.png" alt="Input 8" loading="lazy"/>
+            </div>
+            <div class="column is-one-third">
+              <img src="static/images/196_in.png" alt="Input 9" loading="lazy"/>
+            </div>
+          </div>
+          
+          <!-- 下面三张图片 -->
+          <div class="columns is-multiline">
+            <div class="column is-one-third">
+              <img src="static/images/1_out.png" alt="Output 7" loading="lazy"/>
+            </div>
+            <div class="column is-one-third">
+              <img src="static/images/165_out.png" alt="Output 8" loading="lazy"/>
+            </div>
+            <div class="column is-one-third">
+              <img src="static/images/196_out.png" alt="Output 9" loading="lazy"/>
+            </div>
+          </div>
+        </div>
+        
+        <!-- 第四页 -->
+        <div class="item">
+          <!-- 上面三张图片 -->
+          <div class="columns is-multiline mb-5">
+            <div class="column is-one-third">
+              <img src="static/images/138_in.png" alt="Input 10" loading="lazy"/>
+            </div>
+            <div class="column is-one-third">
+              <img src="static/images/43_in.png" alt="Input 11" loading="lazy"/>
+            </div>
+            <div class="column is-one-third">
+              <img src="static/images/46_in.png" alt="Input 12" loading="lazy"/>
+            </div>
+          </div>
+          
+          <!-- 下面三张图片 -->
+          <div class="columns is-multiline">
+            <div class="column is-one-third">
+              <img src="static/images/138_out.png" alt="Output 10" loading="lazy"/>
+            </div>
+            <div class="column is-one-third">
+              <img src="static/images/43_out.png" alt="Output 11" loading="lazy"/>
+            </div>
+            <div class="column is-one-third">
+              <img src="static/images/46_out.png" alt="Output 12" loading="lazy"/>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </section>
-<!-- End youtube video -->
+
+<style>
+/* 覆盖Bulma的响应式列布局 - 适配所有移动设备 */
+@media screen and (max-width: 1024px) {  /* 改为1024px，覆盖平板和手机 */
+  .results-carousel .columns.is-multiline {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  
+  .results-carousel .columns.is-multiline .column {
+    flex: 0 0 33.333%;
+    min-width: 33.333%;
+    padding: 0.5rem;
+  }
+  
+  .results-carousel .columns.is-multiline img {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
 
 
-<!-- Video carousel -->
-<section class="hero is-small">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title is-3">Another Carousel</h2>
-      <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-video1">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video1" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel1.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video2">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video2" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel2.mp4" type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-video3">
-          <!-- TODO: Add poster image for better preview -->
-          <video poster="" id="video3" controls muted loop height="100%" preload="metadata">
-            <!-- Your video file here -->
-            <source src="static/videos/carousel3.mp4" type="video/mp4">
-          </video>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End video carousel -->
-
-
-
-
-
-
-<!-- Paper poster -->
-<section class="hero is-small is-light">
-  <div class="hero-body">
-    <div class="container">
-      <h2 class="title">Poster</h2>
-
-      <!-- TODO: Replace with your poster PDF -->
-      <iframe  src="static/pdfs/sample.pdf" width="100%" height="550">
-          </iframe>
-        
-      </div>
-    </div>
-  </section>
-<!--End paper poster -->
-
-
-
-<!--BibTex citation -->
-  <section class="section" id="BibTeX">
-    <div class="container is-max-desktop content">
-      <div class="bibtex-header">
-        <h2 class="title">BibTeX</h2>
-        <button class="copy-bibtex-btn" onclick="copyBibTeX()" title="Copy BibTeX to clipboard">
-          <i class="fas fa-copy"></i>
-          <span class="copy-text">Copy</span>
-        </button>
-      </div>
-      <pre id="bibtex-code"><code>@article{YourPaperKey2024,
-  title={Your Paper Title Here},
-  author={First Author and Second Author and Third Author},
-  journal={Conference/Journal Name},
-  year={2024},
-  url={https://your-domain.com/your-project-page}
-}</code></pre>
-    </div>
-</section>
-<!--End BibTex citation -->
 
 
   <footer class="footer">
@@ -510,11 +799,13 @@
   </div>
 </footer>
 
+
+    
 <!-- Statcounter tracking code -->
   
 <!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
 
     <!-- End of Statcounter Code -->
-
+    
   </body>
   </html>
